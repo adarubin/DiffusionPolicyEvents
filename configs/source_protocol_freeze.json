@@ -1,0 +1,375 @@
+{
+  "status": "FROZEN_BEFORE_SCORING",
+  "created_utc": "2026-10-14T16:57:53.112328+00:00",
+  "freeze_sha256": "3b3beac426cac9c8e860fe3617f6cfd77b5943a35d5e0180b1885e4d783d9caf",
+  "payload": {
+    "study_identity": {
+      "version": "notebook08-d200-tail-final-normal-dark-seeds42-43-44-v1",
+      "build_sha256": "be9e982886f40ca61e6348b894c3961641a4298806125794a4ff784857177b25",
+      "dataset_id": "d200_paired_tail_v1_88bac96f5257",
+      "data_fingerprint": "7e86659ebc890c6ce6aa7ec6907b3bfa63d0045ed30a580aac475b89384e15c7",
+      "normalization_hash": "8cfb1b1d216f5c0c9752628ef745fa601c7ee1667c445e5c0d7b5a6dfc1355a5",
+      "sources": {
+        "42": {
+          "rgb": {
+            "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed42_f4221f88a689",
+            "config_hash": "f4221f88a6892d2a3f10ec530f01c10e5ade75611d652a7129a5867a778b666f",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791714935441234706_0f7dcd1a.ckpt",
+              "sha256": "09ca161ee0a231146faaf7a5dc0c482a73bfbd30f81b286dd550fcc0cac02a13"
+            }
+          },
+          "events": {
+            "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed42_78e67b2b54a1",
+            "config_hash": "78e67b2b54a106c045f69e96ab7a38a490ddc6798b56682155fde12485341288",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791718502057605491_64e73a6e.ckpt",
+              "sha256": "c2383ef36146abfd9e872e16dbd1105af81a47e1bd319e98a7155621cce27194"
+            }
+          }
+        },
+        "43": {
+          "rgb": {
+            "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed43_85f45fcb540b",
+            "config_hash": "85f45fcb540b5c621165cb9bbb66b2dfec07daa0f6fc3c1f6aa74d519ff82f3b",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791744910726681940_1de9a22d.ckpt",
+              "sha256": "cd8da3e1b127737b9e5a1adecdd5c2d796007a355f560ea1832cb085579fba95"
+            }
+          },
+          "events": {
+            "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed43_c9e81662cb8d",
+            "config_hash": "c9e81662cb8d907c0a01ddc27f19d960b15752968db6aa9604863435af90a0d3",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791748635011251479_7b72ef6c.ckpt",
+              "sha256": "995c6035fbe499f6d529a59a33c831e545bf71245a759f2d12c72b1d6bc957b1"
+            }
+          }
+        },
+        "44": {
+          "rgb": {
+            "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed44_a0fe3c3db462",
+            "config_hash": "a0fe3c3db46289ad830eba075ce11f09f46671924216e96dadafb54e619205a2",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791746143897191881_f2fac252.ckpt",
+              "sha256": "4cff99b364f5420142b1a9b40c3d81b685d40179dd92f15d41d378ea5745da11"
+            }
+          },
+          "events": {
+            "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed44_ab47122ba734",
+            "config_hash": "ab47122ba7344f15b45134ecaf76d923abb366f395764892a3c7084dffa4d5fa",
+            "best": {
+              "step": 4500,
+              "relative": "best/step_004500_01791749891742660507_88a50998.ckpt",
+              "sha256": "7744db85d1afa3166d45294f6551e33c86a1d8eb7080a93e17d6c888d00c81bd"
+            }
+          }
+        }
+      },
+      "options": {
+        "scene_demo": "demo_10",
+        "environment_seeds": [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005,
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014,
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021,
+          1022,
+          1023,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042,
+          1043,
+          1044,
+          1045,
+          1046,
+          1047,
+          1048,
+          1049
+        ],
+        "policy_seeds": [
+          4000,
+          4001,
+          4002,
+          4003,
+          4004,
+          4005,
+          4006,
+          4007,
+          4008,
+          4009,
+          4010,
+          4011,
+          4012,
+          4013,
+          4014,
+          4015,
+          4016,
+          4017,
+          4018,
+          4019,
+          4020,
+          4021,
+          4022,
+          4023,
+          4024,
+          4025,
+          4026,
+          4027,
+          4028,
+          4029,
+          4030,
+          4031,
+          4032,
+          4033,
+          4034,
+          4035,
+          4036,
+          4037,
+          4038,
+          4039,
+          4040,
+          4041,
+          4042,
+          4043,
+          4044,
+          4045,
+          4046,
+          4047,
+          4048,
+          4049
+        ],
+        "max_control_steps": 300,
+        "execution_horizon": 8,
+        "success_hold_steps": 10,
+        "video_stride": 2,
+        "source_policy": "strict",
+        "sampler": "train_range_x0",
+        "nvidia_library": "/usr/lib64-nvidia/libEGL_nvidia.so.0",
+        "max_frames_per_camera": 1501,
+        "episode_timeout_seconds": 1200,
+        "training_seeds": [
+          42,
+          43,
+          44
+        ],
+        "planned_episodes": 600,
+        "evaluation_role": "locked_final_normal_dark",
+        "no_adaptive_stopping": true,
+        "conditions": [
+          {
+            "id": "normal",
+            "kind": "none"
+          },
+          {
+            "id": "dark_gain025",
+            "kind": "source_gain",
+            "gain": 0.25
+          }
+        ],
+        "presentation": {
+          "layout": "left external frontview; right agentview above wrist",
+          "frame_shape": [
+            512,
+            1024,
+            3
+          ],
+          "external_camera": "frontview",
+          "robot_display_crop": [
+            4,
+            80
+          ],
+          "native_fps": 10,
+          "slow_playback_multiplier": 0.25,
+          "event_scales": {
+            "positive": 3.0,
+            "negative": 3.0,
+            "time_surface": 1.0
+          },
+          "observer_method": "post-rollout saved-state rendering; no policy, V2E or env.step",
+          "right_views": "cached current observations; center76 crop before zscore, enlarged for display",
+          "plan_input_archive": "exact previous/current84 observations for every policy query; separate from lossy MP4"
+        }
+      },
+      "role": "locked final normal/dark evaluation; no tuning on these outcomes",
+      "training_performed": false,
+      "selection_rule": "all six fixed SMALL FP32 EMA4500 models; selected on development only",
+      "development_reference": {
+        "phase1_queue": "d200_tail_stress_seed42_v1_0678ab962480",
+        "phase1_protocol_hash": "6395d4b63d02925f387cb4e0520cd464e6c85a320a5f3b82f33b09626c11d694",
+        "phase1_sustained_rgb_events_outof10": {
+          "normal": [
+            9,
+            8
+          ],
+          "dark_gain025": [
+            4,
+            6
+          ],
+          "bright_gain150": [
+            10,
+            6
+          ],
+          "light_step025": [
+            7,
+            6
+          ],
+          "cube_blue": [
+            9,
+            7
+          ],
+          "cube_impulse_y020": [
+            9,
+            8
+          ]
+        },
+        "replication_queue": "d200_tail_dark_replication_v1_6385f4d7e52c",
+        "replication_protocol_hash": "b9b79b5c1ee7552d464304f4ce1f3855beaa4001c4192417977fe41c07348f58",
+        "replication_evidence_sha256": "c599b60c52a0b2fe1a5ccea6511d5ea120af7f3f89ce74847e52cf5b67d33786",
+        "replication_sustained_outof20": {
+          "42": {
+            "rgb_normal": 20,
+            "events_normal": 12,
+            "rgb_dark": 5,
+            "events_dark": 15
+          },
+          "43": {
+            "rgb_normal": 20,
+            "events_normal": 12,
+            "rgb_dark": 7,
+            "events_dark": 14
+          },
+          "44": {
+            "rgb_normal": 20,
+            "events_normal": 12,
+            "rgb_dark": 14,
+            "events_dark": 13
+          }
+        },
+        "selection": "normal and EXACT gain0.25 selected on disclosed separate development results; no final cohort results inspected",
+        "historical_episode_imports": 0
+      },
+      "analysis_plan": {
+        "version": "final-normal-dark-analysis-v1",
+        "unit": "a fixed trained policy tested over50 shared reset/policy-noise ID pairs",
+        "primary_endpoint": "cube height above table>0.04m for10 consecutive20Hz steps; stop episode at sustained success or300 steps",
+        "primary_contrast": "mean across all three training pairs of Events-minus-RGB sustained success rate in dark_gain025",
+        "secondary_contrasts": [
+          "Events-minus-RGB sustained rate in normal",
+          "Events-minus-RGB difference in dark-minus-normal changes"
+        ],
+        "secondary_endpoints": [
+          "any Lift",
+          "simulated time to success conditional on success",
+          "numerical/source/presentation audit outcomes"
+        ],
+        "reporting": "all12groups,paired discordance,per-training-seed rates,equal-weight mean and sampleSD; no best-seed selection",
+        "uncertainty": "4000 paired reset bootstrap draws; SAME reset resample across all six fixed models andbothconditions",
+        "bootstrap_summary_seed": 98439,
+        "uncertainty_limits": "conditional on six fixed models; does not estimate training-population/selection/scene/sensor uncertainty",
+        "queue_stopping": "all600 valid trials regardless of observed success; infrastructure failures block completion and resume the same job",
+        "missing_data": "no replacement seeds or outcome-based exclusions; incomplete final groups remain pending",
+        "post_test_rule": "no tuning,checkpoint selection or condition adjustment on this held-out cohort; report negative or mixed outcomes",
+        "scope": "fixed TRAIN XMLscene,standard resetregion,synthetic noiseless V2E,digital gain; not a physical camera study",
+        "video_examples": {
+          "training_seed": 42,
+          "environment_seeds": [
+            1000,
+            1001
+          ],
+          "conditions": [
+            "normal",
+            "dark_gain025"
+          ],
+          "modalities": [
+            "rgb",
+            "events"
+          ],
+          "selection": "all eight matching trials,irrespective of success"
+        }
+      }
+    },
+    "analysis_plan": {
+      "version": "final-normal-dark-analysis-v1",
+      "unit": "a fixed trained policy tested over50 shared reset/policy-noise ID pairs",
+      "primary_endpoint": "cube height above table>0.04m for10 consecutive20Hz steps; stop episode at sustained success or300 steps",
+      "primary_contrast": "mean across all three training pairs of Events-minus-RGB sustained success rate in dark_gain025",
+      "secondary_contrasts": [
+        "Events-minus-RGB sustained rate in normal",
+        "Events-minus-RGB difference in dark-minus-normal changes"
+      ],
+      "secondary_endpoints": [
+        "any Lift",
+        "simulated time to success conditional on success",
+        "numerical/source/presentation audit outcomes"
+      ],
+      "reporting": "all12groups,paired discordance,per-training-seed rates,equal-weight mean and sampleSD; no best-seed selection",
+      "uncertainty": "4000 paired reset bootstrap draws; SAME reset resample across all six fixed models andbothconditions",
+      "bootstrap_summary_seed": 98439,
+      "uncertainty_limits": "conditional on six fixed models; does not estimate training-population/selection/scene/sensor uncertainty",
+      "queue_stopping": "all600 valid trials regardless of observed success; infrastructure failures block completion and resume the same job",
+      "missing_data": "no replacement seeds or outcome-based exclusions; incomplete final groups remain pending",
+      "post_test_rule": "no tuning,checkpoint selection or condition adjustment on this held-out cohort; report negative or mixed outcomes",
+      "scope": "fixed TRAIN XMLscene,standard resetregion,synthetic noiseless V2E,digital gain; not a physical camera study",
+      "video_examples": {
+        "training_seed": 42,
+        "environment_seeds": [
+          1000,
+          1001
+        ],
+        "conditions": [
+          "normal",
+          "dark_gain025"
+        ],
+        "modalities": [
+          "rgb",
+          "events"
+        ],
+        "selection": "all eight matching trials,irrespective of success"
+      }
+    },
+    "endpoint": "cube height above table>0.04m for10 consecutive20Hz steps",
+    "policy_noise_role": "4000-4049, separate from environment reset1000-1049",
+    "queue_stopping": "all600 valid completed trials; no outcome-dependent queue stopping",
+    "frozen_source": "exact six EMA4500 models, data, normalizer, sampler, source and conditions",
+    "video_selection": "training42,reset1000/1001,both modalities,both conditions; selected before outcomes"
+  }
+}

@@ -1,0 +1,15 @@
+data/
+checkpoints/
+weights/
+analysis_outputs/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.ckpt
+*.pt
+*.pth
+*.hdf5
+*.h5
+*.npz
+*.zip

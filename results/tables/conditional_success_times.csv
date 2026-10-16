@@ -1,0 +1,13 @@
+training_seed,condition_id,modality,successful_trials,median_simulated_s
+42,dark_gain025,events,37,2.9
+42,dark_gain025,rgb,24,3.0
+42,normal,events,37,2.9
+42,normal,rgb,49,2.75
+43,dark_gain025,events,35,2.9
+43,dark_gain025,rgb,28,3.0
+43,normal,events,33,2.95
+43,normal,rgb,49,2.7
+44,dark_gain025,events,38,2.925
+44,dark_gain025,rgb,36,3.05
+44,normal,events,37,2.9
+44,normal,rgb,50,2.7

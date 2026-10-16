@@ -1,0 +1,13 @@
+training_seed,condition_id,modality,trials,any_success,sustained_success,sustained_rate,any_rate
+42,dark_gain025,events,50,37,37,0.74,0.74
+42,dark_gain025,rgb,50,24,24,0.48,0.48
+42,normal,events,50,38,37,0.74,0.76
+42,normal,rgb,50,49,49,0.98,0.98
+43,dark_gain025,events,50,35,35,0.7,0.7
+43,dark_gain025,rgb,50,29,28,0.56,0.58
+43,normal,events,50,34,33,0.66,0.68
+43,normal,rgb,50,49,49,0.98,0.98
+44,dark_gain025,events,50,39,38,0.76,0.78
+44,dark_gain025,rgb,50,37,36,0.72,0.74
+44,normal,events,50,39,37,0.74,0.78
+44,normal,rgb,50,50,50,1.0,1.0

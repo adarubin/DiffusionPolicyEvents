@@ -1,0 +1,80 @@
+{
+  "author": "Adar Rubin",
+  "github_owner": "adarubin",
+  "public_repository": "https://github.com/adarubin/DiffusionPolicyEvents",
+  "date": "2026-10-16",
+  "study_id": "d200_tail_final_normal_dark_v1_fed681d7b085",
+  "analysis_id": "d200_tail_final600_analysis_v1_eabc0eae0aa4",
+  "actual_colab_session": "20261016T112007Z_4ca5e09e",
+  "actual_drive_bundle_sha256": "3ccbe15c836fc1e32035800a3b66782435dd76a52169475040ac93d42a773c23",
+  "public_tables_origin": "Supplied already_generated real-evidence analysis; metrics independently reproduced in actualColab09 session. Not relabeled fresh downloaded Colab ZIP bytes.",
+  "fresh_colab_bundle_desktop_download_status": "PENDING_BROWSER_DELIVERY_FAILURE",
+  "notebook_transforms": [
+    {
+      "path": "notebooks/00_Project_Setup.ipynb",
+      "original_sha256": "e5d77724b145c70e6b8473d5f47db5e1f5b615b454c88a5edd3803f3d23354d4",
+      "published_sha256": "aa616bc545abb49a39b2cafb8fefe5440db0d4f37a0d575ea266d9deb453add5",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/01_Dataset_Audit_and_Splits.ipynb",
+      "original_sha256": "c98d628e2e6445c70537ed4d141b1b152c004b7cdc4badd9064fa97d6bca6a94",
+      "published_sha256": "d586fef78ecaf06f7ba781615d55535b583dd0f0733f11aec0eb781acce78f74",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/02_MuJoCo_HighRate_Replay.ipynb",
+      "original_sha256": "10fa02afac0ad286e4f98135d3a1369fd3b8b78a089aa9f3e8f2b4367fc75e6e",
+      "published_sha256": "ee1b7510e9e8787bd42d5b2b4f2c3df0d347a302380f09c135d971b1d6537e63",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/03_V2E_Event_Generation.ipynb",
+      "original_sha256": "0fbc3a5b1924818257827b8c58e9b2c0f0006169a21f911aed0ab309615adc6b",
+      "published_sha256": "f24adfc9ffa7aaaab60dabb75623a1adafea621c521c6de2268b5a9623e94ce4",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/04_RGB_Baseline_Training.ipynb",
+      "original_sha256": "44ca0fa494dc54b2d4ef3fdb1d5225f4bf262d66178b53f65aca2d4aa447b31b",
+      "published_sha256": "9bdddb8fc67b602612b95a73a3e1ebaa67983b34f3cdfc171b18dd1b20b8f50e",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/05_Event_Policy_Training.ipynb",
+      "original_sha256": "3d985bc6ae3ce6ff4c5e5359efdbbeb27b69475be8a8ec2aed6787c2a6f7d66f",
+      "published_sha256": "c9241ece43cbab35fb11dbd8ec544cc3643b7b1a429ddf219216a3b823ed50fa",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/06_Hyperparameter_Selection.ipynb",
+      "original_sha256": "ba91a56e9a644a18a238052799b0066a899227ff00463c500a1f7fa9e1580265",
+      "published_sha256": "1a628c12ca152c69ff33e1fcd18fa3b9d0517c821e61afd1e8ec1cf3f0114681",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/07_Closed_Loop_Development_Pilot.ipynb",
+      "original_sha256": "388967469660826e95d7547f4f489ec9e527064a9be54a451bffa6f5c8890bbd",
+      "published_sha256": "c9babcbf031fc0e4296f7d1cb32bebeebee4d86362e26ad88886f59f719a3171",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/08_Robustness_Stress_Tests.ipynb",
+      "original_sha256": "28ba6d92fde9624d31dc0f8368a658481a3b96221fb37058ddc29ba5077429bc",
+      "published_sha256": "7dcf58fdc3dc557cb9289311055b06e37c21aace112a08e9d7aa72aaa3a04d5d",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    },
+    {
+      "path": "notebooks/09_Final_Analysis_and_Report.ipynb",
+      "original_sha256": "09a845f8c3dd43c3b4dd71096367fa160026ecb20fbbc2d128ad85737866347b",
+      "published_sha256": "aee543cd8ee47fd69e4aeaa4607f0541c8654a5c7b251ff63df910bd69ace359",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+    }
+  ],
+  "raw_data_included": false,
+  "checkpoint_bytes_included": false,
+  "private_context_archives_included": false,
+  "new_training": 0,
+  "new_simulations": 0,
+  "unit_balance_observed": false
+}

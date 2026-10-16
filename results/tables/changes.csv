@@ -1,0 +1,7 @@
+training_seed,modality,dark_minus_normal_pp,lost_successes,gained_successes
+42,rgb,-50.0,25,0
+42,events,0.0,1,1
+43,rgb,-41.99999999999999,21,0
+43,events,3.9999999999999925,4,6
+44,rgb,-28.000000000000004,14,0
+44,events,2.0000000000000018,1,2

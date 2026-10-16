@@ -1,0 +1,7 @@
+training_seed,condition_id,both_success,rgb_only,events_only,both_fail
+42,normal,37,12,0,1
+42,dark_gain025,22,2,15,11
+43,normal,33,16,0,1
+43,dark_gain025,21,7,14,8
+44,normal,37,13,0,0
+44,dark_gain025,28,8,10,4
