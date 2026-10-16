@@ -54,7 +54,7 @@ Both policies use the same design, with independently trained weights:
 | Events | Positive polarity, negative polarity and time surface in 50 ms windows |
 | Policy | SMALL conditional temporal U Net with FiLM, widths 128/256/512 |
 | Action generation | 100-step FP32 DDPM; EMA checkpoint 4500; train-range x0 projection |
-| Control | Predict 16 seven-dimensional actions; execute first 8; replan at 20 Hz |
+| Control | Predict 16 seven-dimensional actions; execute first 8 at 20 Hz, then replan (every 0.4 simulated seconds) |
 
 Stage4-only applies to the visual encoders; the policy network also learns. Encoder weights are shared over time, but not across cameras or modalities. DINO was an initial alternative, not an evaluated baseline. Matching the encoder design controls a variable; it does not establish that either representation is optimally encoded.
 
