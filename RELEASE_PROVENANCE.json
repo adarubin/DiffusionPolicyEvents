@@ -13,62 +13,82 @@
     {
       "path": "notebooks/00_Project_Setup.ipynb",
       "original_sha256": "e5d77724b145c70e6b8473d5f47db5e1f5b615b454c88a5edd3803f3d23354d4",
-      "published_sha256": "aa616bc545abb49a39b2cafb8fefe5440db0d4f37a0d575ea266d9deb453add5",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "a5b8190a05d69a6d6759b8c12c703d2e5d36f5750c2b18ccf4db8e52d007d11b",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "aa616bc545abb49a39b2cafb8fefe5440db0d4f37a0d575ea266d9deb453add5",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/01_Dataset_Audit_and_Splits.ipynb",
       "original_sha256": "c98d628e2e6445c70537ed4d141b1b152c004b7cdc4badd9064fa97d6bca6a94",
-      "published_sha256": "d586fef78ecaf06f7ba781615d55535b583dd0f0733f11aec0eb781acce78f74",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "789720f49a331818b46288c786845adea05c45dd552ff424e5ba836123242539",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "d586fef78ecaf06f7ba781615d55535b583dd0f0733f11aec0eb781acce78f74",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/02_MuJoCo_HighRate_Replay.ipynb",
       "original_sha256": "10fa02afac0ad286e4f98135d3a1369fd3b8b78a089aa9f3e8f2b4367fc75e6e",
-      "published_sha256": "ee1b7510e9e8787bd42d5b2b4f2c3df0d347a302380f09c135d971b1d6537e63",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "ccda034879704d8a7184b28f7b9144e95fd8aaa80b10ef70c1206011f2704a38",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "ee1b7510e9e8787bd42d5b2b4f2c3df0d347a302380f09c135d971b1d6537e63",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/03_V2E_Event_Generation.ipynb",
       "original_sha256": "0fbc3a5b1924818257827b8c58e9b2c0f0006169a21f911aed0ab309615adc6b",
-      "published_sha256": "f24adfc9ffa7aaaab60dabb75623a1adafea621c521c6de2268b5a9623e94ce4",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "d799a39b139c9f353ddb1a826083c1540c8a6ab30f9b8f8ddeaee8d09d153e6b",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "f24adfc9ffa7aaaab60dabb75623a1adafea621c521c6de2268b5a9623e94ce4",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/04_RGB_Baseline_Training.ipynb",
       "original_sha256": "44ca0fa494dc54b2d4ef3fdb1d5225f4bf262d66178b53f65aca2d4aa447b31b",
-      "published_sha256": "9bdddb8fc67b602612b95a73a3e1ebaa67983b34f3cdfc171b18dd1b20b8f50e",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "d9bb610ab4cf5e7879022dd92d20fd1fd4902df81921af2df440e450a3f0f136",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "9bdddb8fc67b602612b95a73a3e1ebaa67983b34f3cdfc171b18dd1b20b8f50e",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/05_Event_Policy_Training.ipynb",
       "original_sha256": "3d985bc6ae3ce6ff4c5e5359efdbbeb27b69475be8a8ec2aed6787c2a6f7d66f",
-      "published_sha256": "c9241ece43cbab35fb11dbd8ec544cc3643b7b1a429ddf219216a3b823ed50fa",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "b00563eae5d3ea20b0bf8e9541776fdc1a7e464940137e0a5187e8743d225376",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "c9241ece43cbab35fb11dbd8ec544cc3643b7b1a429ddf219216a3b823ed50fa",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/06_Hyperparameter_Selection.ipynb",
       "original_sha256": "ba91a56e9a644a18a238052799b0066a899227ff00463c500a1f7fa9e1580265",
-      "published_sha256": "1a628c12ca152c69ff33e1fcd18fa3b9d0517c821e61afd1e8ec1cf3f0114681",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "a2f435c8bd3f67ddc4aafc9f3498760bec5382ca9fd8be18f34540c2eaa8b70f",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "1a628c12ca152c69ff33e1fcd18fa3b9d0517c821e61afd1e8ec1cf3f0114681",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/07_Closed_Loop_Development_Pilot.ipynb",
       "original_sha256": "388967469660826e95d7547f4f489ec9e527064a9be54a451bffa6f5c8890bbd",
-      "published_sha256": "c9babcbf031fc0e4296f7d1cb32bebeebee4d86362e26ad88886f59f719a3171",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "403fa8144fdc363464fbcff92fabe571e2eafc00c68c4be9f4a91de12fd03ec5",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "c9babcbf031fc0e4296f7d1cb32bebeebee4d86362e26ad88886f59f719a3171",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/08_Robustness_Stress_Tests.ipynb",
       "original_sha256": "28ba6d92fde9624d31dc0f8368a658481a3b96221fb37058ddc29ba5077429bc",
-      "published_sha256": "7dcf58fdc3dc557cb9289311055b06e37c21aace112a08e9d7aa72aaa3a04d5d",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "5d2ba5a1db809d95613fa83ffaec92e5c611749c131ac2b4877be6dd61f4769f",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "7dcf58fdc3dc557cb9289311055b06e37c21aace112a08e9d7aa72aaa3a04d5d",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     },
     {
       "path": "notebooks/09_Final_Analysis_and_Report.ipynb",
       "original_sha256": "09a845f8c3dd43c3b4dd71096367fa160026ecb20fbbc2d128ad85737866347b",
-      "published_sha256": "aee543cd8ee47fd69e4aeaa4607f0541c8654a5c7b251ff63df910bd69ace359",
-      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed."
+      "published_sha256": "73ac0bb46f8c643a7ede2ae9092b67b938d30336727c99676ea60535f110edec",
+      "transform": "Cell sources unchanged; outputs/execution counts and notebook/cell metadata removed.",
+      "local_build_before_git_sha256": "aee543cd8ee47fd69e4aeaa4607f0541c8654a5c7b251ff63df910bd69ace359",
+      "hash_scope": "Published SHA256 identifies LF-normalized committed Git blob; local_build_before_git_sha256 records Windows build bytes."
     }
   ],
   "raw_data_included": false,
