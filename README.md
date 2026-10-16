@@ -3,7 +3,7 @@
 **Robot imitation learning with RGB and synthetic Events vision**  
 Master's research project by **Adar Rubin** · [Personal GitHub](https://github.com/adarubin)
 
-![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Diffusion_Policy-EE4C2C?logo=pytorch&logoColor=white)
 ![Evaluation](https://img.shields.io/badge/Locked_evaluation-600_episodes-2b7a58)
 ![Replication](https://img.shields.io/badge/Training_replications-3_pairs-596579)
@@ -36,7 +36,7 @@ The video illustrates behavior; its eight clips do not estimate aggregate succes
 
 ![Success by training replication and condition](assets/01_success_by_training_seed.png)
 
-RGB drops 40 percentage points under darkening; Events changes by +2 points. Dark Events advantages are 26, 14 and 4 points across training seeds 42,43 and44. The primary dark difference has a **conditional 95% paired shared-reset bootstrap interval of [+2.67,+26.67] pp**. Normal contrast:[-38.00,-17.33] pp. These intervals condition on six fixed models and 50 shared reset/noise pairs; they do not represent training-population or physical-sensor uncertainty. There are three trained models per modality, not 150.
+RGB drops 40 percentage points under darkening; Events changes by +2 points. Dark Events advantages are 26, 14 and 4 points across training seeds 42,43 and44. The primary dark difference has a **conditional 95% paired shared-reset bootstrap interval of [+2.67,+26.67] pp**. Normal contrast: [-38.00,-17.33] pp. These intervals condition on six fixed models and 50 shared reset/noise pairs; they do not represent training-population or physical-sensor uncertainty. There are three trained models per modality, not 150.
 
 **Metric:** cube height above the table exceeds 0.04 m for 10 consecutive 20 Hz control steps. Evaluation horizon: 300 steps. All 12 groups are reported; no final-seed tuning or successful-seed substitution.
 
@@ -89,12 +89,12 @@ The pinned core archive is an external research artifact and is not bundled in t
 
 `e88a08e3552519567a90165d463737345ba9f04df1fcf1e15bbeb5914b8a8315`
 
-Notebook09 is the canonical Colab CPU analysis/publication workflow. Training and simulation notebooks are research records requiring their documented Drive data/checkpoints and a compatible Colab runtime. **Do not Run all 00–09:**00/01 are historical snapshots,06 is a planned unexecuted sweep,02–08 document completed stages, and09 analyzes the completed evaluation. The public notebooks have outputs and account metadata removed, while cell sources remain unchanged; see [release provenance](RELEASE_PROVENANCE.json).
+Notebook09 is the canonical Colab CPU analysis/publication workflow. Training and simulation notebooks are research records requiring their documented Drive data/checkpoints and a compatible Colab runtime. **Do not Run all 00–09:** 00/01 are historical snapshots, 06 is a planned unexecuted sweep, 02–08 document completed stages, and 09 analyzes the completed evaluation. The public notebooks have outputs and account metadata removed, while cell sources remain unchanged; see [release provenance](RELEASE_PROVENANCE.json).
 
 ## Repository map
 
 ```text
-notebooks/       Colab research notebooks00 through 09
+notebooks/       Colab research notebooks 00 through 09
 src/             Frozen evaluator reference modules
 analysis/        Pinned CPU analysis engine
 configs/         Actual frozen final evaluation protocol and freeze record

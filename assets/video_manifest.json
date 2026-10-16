@@ -1,0 +1,224 @@
+{
+  "title": "Diffusion Policy RGB and Events Examples",
+  "author": "Adar Rubin",
+  "date": "2026-10-16",
+  "speed_multiplier": 0.5,
+  "source_native_fps": 10,
+  "output_fps": 20,
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 117.0,
+  "sha256": "c52e2d648cf0ed20a01c2a31d81980fe5ffa5da92f3c299f01d51a5ddf67aa9c",
+  "bytes": 4979534,
+  "selection": "FIXED BEFORE OUTCOMES:training42,resets1000/1001,bothconditions,bothmodalities",
+  "layout": "Left half external simulator observer; right top agentview, right bottom wrist. Cached current center76 crops before zscore. Lossy display.",
+  "edits": "Full chronological episodes; constant2xPTS; duplicated frames for20fps; header1xtextmasked; no trajectory alteration. No audio.",
+  "training_runs": 0,
+  "new_simulations": 0,
+  "segments": [
+    {
+      "name": "00_intro",
+      "duration": 8,
+      "kind": "card",
+      "start_seconds": 0.0,
+      "end_seconds": 8.0
+    },
+    {
+      "name": "01_legend",
+      "duration": 12,
+      "kind": "card",
+      "start_seconds": 8.0,
+      "end_seconds": 20.0
+    },
+    {
+      "name": "pair_normal_1000",
+      "duration": 3,
+      "kind": "card",
+      "start_seconds": 20.0,
+      "end_seconds": 23.0
+    },
+    {
+      "name": "train42__normal__rgb_best_seed_1000",
+      "duration": 5.8,
+      "kind": "episode",
+      "start_seconds": 23.0,
+      "end_seconds": 28.8,
+      "episode": {
+        "key": "train42__normal__rgb_best_seed_1000",
+        "training_seed": 42,
+        "reset_seed": 1000,
+        "noise_seed": 4000,
+        "modality": "rgb",
+        "condition": "normal",
+        "steps": 56,
+        "simulation_seconds": 2.8,
+        "sustained_success": true,
+        "sha256": "357d14c472e3790243c9e63021e025830ff7e19e94b47811d1fc78edc55953de"
+      }
+    },
+    {
+      "name": "train42__normal__events_best_seed_1000",
+      "duration": 6.0,
+      "kind": "episode",
+      "start_seconds": 28.8,
+      "end_seconds": 34.8,
+      "episode": {
+        "key": "train42__normal__events_best_seed_1000",
+        "training_seed": 42,
+        "reset_seed": 1000,
+        "noise_seed": 4000,
+        "modality": "events",
+        "condition": "normal",
+        "steps": 58,
+        "simulation_seconds": 2.9,
+        "sustained_success": true,
+        "sha256": "d211e699f959a8a0d116523e24b4a3c6b4562d14efeb3e6e9a63ed2e5c493ebc"
+      }
+    },
+    {
+      "name": "pair_normal_1001",
+      "duration": 3,
+      "kind": "card",
+      "start_seconds": 34.8,
+      "end_seconds": 37.8
+    },
+    {
+      "name": "train42__normal__rgb_best_seed_1001",
+      "duration": 5.8,
+      "kind": "episode",
+      "start_seconds": 37.8,
+      "end_seconds": 43.6,
+      "episode": {
+        "key": "train42__normal__rgb_best_seed_1001",
+        "training_seed": 42,
+        "reset_seed": 1001,
+        "noise_seed": 4001,
+        "modality": "rgb",
+        "condition": "normal",
+        "steps": 55,
+        "simulation_seconds": 2.75,
+        "sustained_success": true,
+        "sha256": "4cccfaa8863f64a17f5ed1317bd64a93d756d2b899788562d209701ec3385c08"
+      }
+    },
+    {
+      "name": "train42__normal__events_best_seed_1001",
+      "duration": 6.0,
+      "kind": "episode",
+      "start_seconds": 43.6,
+      "end_seconds": 49.6,
+      "episode": {
+        "key": "train42__normal__events_best_seed_1001",
+        "training_seed": 42,
+        "reset_seed": 1001,
+        "noise_seed": 4001,
+        "modality": "events",
+        "condition": "normal",
+        "steps": 58,
+        "simulation_seconds": 2.9,
+        "sustained_success": true,
+        "sha256": "ff977eb9690d9307307a8007712d0f365d72e40ef5c81c8d7676be0198b9effc"
+      }
+    },
+    {
+      "name": "pair_dark_gain025_1000",
+      "duration": 3,
+      "kind": "card",
+      "start_seconds": 49.6,
+      "end_seconds": 52.6
+    },
+    {
+      "name": "train42__dark_gain025__rgb_best_seed_1000",
+      "duration": 6.2,
+      "kind": "episode",
+      "start_seconds": 52.6,
+      "end_seconds": 58.8,
+      "episode": {
+        "key": "train42__dark_gain025__rgb_best_seed_1000",
+        "training_seed": 42,
+        "reset_seed": 1000,
+        "noise_seed": 4000,
+        "modality": "rgb",
+        "condition": "dark_gain025",
+        "steps": 59,
+        "simulation_seconds": 2.95,
+        "sustained_success": true,
+        "sha256": "d0146e27e8c6b1be0919186ea2b653e4e259293d9edef41c49f1d4ea6edee70e"
+      }
+    },
+    {
+      "name": "train42__dark_gain025__events_best_seed_1000",
+      "duration": 6.0,
+      "kind": "episode",
+      "start_seconds": 58.8,
+      "end_seconds": 64.8,
+      "episode": {
+        "key": "train42__dark_gain025__events_best_seed_1000",
+        "training_seed": 42,
+        "reset_seed": 1000,
+        "noise_seed": 4000,
+        "modality": "events",
+        "condition": "dark_gain025",
+        "steps": 58,
+        "simulation_seconds": 2.9,
+        "sustained_success": true,
+        "sha256": "933be7de9f71911292c459cedab3fcd5f59abb850157371da67ff517865379c3"
+      }
+    },
+    {
+      "name": "pair_dark_gain025_1001",
+      "duration": 3,
+      "kind": "card",
+      "start_seconds": 64.8,
+      "end_seconds": 67.8
+    },
+    {
+      "name": "train42__dark_gain025__rgb_best_seed_1001",
+      "duration": 30.2,
+      "kind": "episode",
+      "start_seconds": 67.8,
+      "end_seconds": 98.0,
+      "episode": {
+        "key": "train42__dark_gain025__rgb_best_seed_1001",
+        "training_seed": 42,
+        "reset_seed": 1001,
+        "noise_seed": 4001,
+        "modality": "rgb",
+        "condition": "dark_gain025",
+        "steps": 300,
+        "simulation_seconds": 15.0,
+        "sustained_success": false,
+        "sha256": "40b4714ad0b2618885eb12fd17cdd9a94001fbf52fa065ca0901d29231273b94"
+      }
+    },
+    {
+      "name": "train42__dark_gain025__events_best_seed_1001",
+      "duration": 6.0,
+      "kind": "episode",
+      "start_seconds": 98.0,
+      "end_seconds": 104.0,
+      "episode": {
+        "key": "train42__dark_gain025__events_best_seed_1001",
+        "training_seed": 42,
+        "reset_seed": 1001,
+        "noise_seed": 4001,
+        "modality": "events",
+        "condition": "dark_gain025",
+        "steps": 57,
+        "simulation_seconds": 2.85,
+        "sustained_success": true,
+        "sha256": "b53cd33a6a0814f016db7f6ac43d197f8c779c341938ace73ed94a776a7cb41c"
+      }
+    },
+    {
+      "name": "99_results",
+      "duration": 13,
+      "kind": "card",
+      "start_seconds": 104.0,
+      "end_seconds": 117.0
+    }
+  ],
+  "qa_full_decode_pass": true
+}
