@@ -40,6 +40,20 @@ RGB drops 40 percentage points under darkening; Events changes by +2 points. Dar
 
 **Metric:** cube height above the table exceeds 0.04 m for 10 consecutive 20 Hz control steps. Evaluation horizon: 300 steps. All 12 groups are reported; no final-seed tuning or successful-seed substitution.
 
+## Training budget and learning curves
+
+![Recorded validation learning curves](results/training/validation_learning_curves.png)
+
+The final policies were compared under an equal **4500 optimizer-update budget**, equivalent to about **38.6 passes through the training windows**. An audit of all six archived training histories found that every model still achieved its best observed validation loss at the final update. The last 500 updates reduced validation epsilon-MSE by **0.465%–0.714%**. Improvement slowed, but these logs do **not** establish convergence or that further training would be useless. Validation loss is not a curve of robot success.
+
+See the [training-budget review](docs/TRAINING_BUDGET_REVIEW.md), [six-run summary](results/training/training_budget_summary.csv) and [source audit](results/training/TRAINING_HISTORY_AUDIT.json). This read-only CPU audit adds no training, rollouts or GPU use. A small paired development study of additional training is a proposed next step; all original final models and results remain frozen.
+
+To regenerate the figures from the included logs:
+
+```bash
+python scripts/plot_training_curves.py
+```
+
 ## Architecture
 
 ![Architecture of the independently trained policies](assets/architecture.png)

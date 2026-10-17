@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-17",
+  "owner": "Adar Rubin",
+  "scope": "Read-only CPU analysis of existing six D200 TAIL training histories. No experiments or model byte audit.",
+  "runs": [
+    {
+      "modality": "rgb",
+      "training_seed": 42,
+      "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed42_f4221f88a689",
+      "config_hash": "f4221f88a6892d2a3f10ec530f01c10e5ade75611d652a7129a5867a778b666f",
+      "archive_catalog_sha256": "d62d2802776223daa66bf5a7f2976fdabe984e6b43cbbfd23b9bb67364ebc970",
+      "archive_original_name": "evidence_bundle(5).zip",
+      "nested_member": "",
+      "nested_bundle_sha256": "d62d2802776223daa66bf5a7f2976fdabe984e6b43cbbfd23b9bb67364ebc970",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "1a333ba06c495ba93c801e3266cf277e30173fa35bb4866143e9201cc9cbacdb",
+          "bytes": 3014,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "7699756f7957d9db28dafad7e9d489393bd471d45da9d6b30e8eaa77f7e74b82",
+          "bytes": 18149,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "0a20cc5aa5e82e42da1b9a2882b3b126c9a8daf5dd9ca287abfc671d2992534f",
+          "bytes": 3679,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    },
+    {
+      "modality": "events",
+      "training_seed": 42,
+      "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed42_78e67b2b54a1",
+      "config_hash": "78e67b2b54a106c045f69e96ab7a38a490ddc6798b56682155fde12485341288",
+      "archive_catalog_sha256": "419629c99f7fcd27f6e279acc1bd3de0f32c1d39dc6ba60555507fb9e2d7cf77",
+      "archive_original_name": "evidence_bundle(6).zip",
+      "nested_member": "",
+      "nested_bundle_sha256": "419629c99f7fcd27f6e279acc1bd3de0f32c1d39dc6ba60555507fb9e2d7cf77",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "97945f02fa9fc4a75d7e5acd93bd20d379d8fa7e6ac3219824e379e3ab9faf9f",
+          "bytes": 3048,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "8c8401c10b79adfedbc13134a6a9eb4f4e00cd066ff064c8f832ca6889cf81d2",
+          "bytes": 18293,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "778d0243093c609953a6b64fcad254e4a622e08ae815b6bb0e3a6d1c2603f94b",
+          "bytes": 3964,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    },
+    {
+      "modality": "rgb",
+      "training_seed": 43,
+      "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed43_85f45fcb540b",
+      "config_hash": "85f45fcb540b5c621165cb9bbb66b2dfec07daa0f6fc3c1f6aa74d519ff82f3b",
+      "archive_catalog_sha256": "a529396b2c2edc2d9867d6d35cee5b5caf320b9d523454df2b481c4590963a9d",
+      "archive_original_name": "replication_evidence_bundle.zip",
+      "nested_member": "seed43/evidence_bundle.zip",
+      "nested_bundle_sha256": "8f9cbf7963a514be7ebb462449f74a829227105390e8e2de713593bdb236cd16",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "e3acef3a024542556a6cb802e5cdf8f5b7e7f5527ecc9c61c8ad7fcb885d138a",
+          "bytes": 3010,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "c2578f72474aed58f1e36f193198d0b8346b784b6d6540506632c9f9c9685bb8",
+          "bytes": 18141,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "33a7edf44ffd10573ba8ee50a262b8545c0099ad6b3602637e16d73331e713f7",
+          "bytes": 3679,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    },
+    {
+      "modality": "rgb",
+      "training_seed": 44,
+      "run_id": "d200_rgb_paired_gpu_tail_fixed4500_v1_seed44_a0fe3c3db462",
+      "config_hash": "a0fe3c3db46289ad830eba075ce11f09f46671924216e96dadafb54e619205a2",
+      "archive_catalog_sha256": "a529396b2c2edc2d9867d6d35cee5b5caf320b9d523454df2b481c4590963a9d",
+      "archive_original_name": "replication_evidence_bundle.zip",
+      "nested_member": "seed44/evidence_bundle.zip",
+      "nested_bundle_sha256": "a34461429883f7a132ea269db5d404d6e36786ef8fb4846acf1768da0645210e",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "b4c15352d3943c02798be77655300c0257225d4c1a34d3ea59904ddc79e1f684",
+          "bytes": 3010,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "b35de8dbbe74255cdf350b15434f5711b98ea20515f27c99cc06829b9b5c4794",
+          "bytes": 18173,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "df9328b73a697c30a656ba5f11575bd540d4c54b05a4a53e428abf81f9c2d837",
+          "bytes": 3683,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    },
+    {
+      "modality": "events",
+      "training_seed": 43,
+      "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed43_c9e81662cb8d",
+      "config_hash": "c9e81662cb8d907c0a01ddc27f19d960b15752968db6aa9604863435af90a0d3",
+      "archive_catalog_sha256": "1f88335fffe3e0a38f150b2571a21c09c099f62c12a9d3f31fccc7b481655229",
+      "archive_original_name": "replication_evidence_bundle(1).zip",
+      "nested_member": "seed43/evidence_bundle.zip",
+      "nested_bundle_sha256": "a0cc8b9d7de77d760eaa625dbc1e1e9a0670e2e5bab872ce6865af2e5bf23f75",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "a4fe5d16eb7f0c9f4e0a2d0c50f53fe1284c3ffda50082c69e7d324ff2aeed2b",
+          "bytes": 3042,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "07d016aa8c1c2511ddf6cae0adb12fda600e622e347645997c4a86c8a98ae261",
+          "bytes": 18290,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "deaea3dd1d48ab556595e42c35236cef3f5eb7936890823108e38892fd8e3d90",
+          "bytes": 3966,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    },
+    {
+      "modality": "events",
+      "training_seed": 44,
+      "run_id": "d200_events_paired_gpu_tail_fixed4500_v1_seed44_ab47122ba734",
+      "config_hash": "ab47122ba7344f15b45134ecaf76d923abb366f395764892a3c7084dffa4d5fa",
+      "archive_catalog_sha256": "1f88335fffe3e0a38f150b2571a21c09c099f62c12a9d3f31fccc7b481655229",
+      "archive_original_name": "replication_evidence_bundle(1).zip",
+      "nested_member": "seed44/evidence_bundle.zip",
+      "nested_bundle_sha256": "5b049a2c46c443d06c526909badd600cebf3be769b3ac3d0147ab9b7f9bbc97f",
+      "zip_crc_pass": true,
+      "payloads": {
+        "validation_history.csv": {
+          "sha256": "327968f566c53d29c3119187b1ca68f58df8ed6fe4261e504131115a63c77593",
+          "bytes": 3039,
+          "bound_by_inner_manifest": true
+        },
+        "training_progress.csv": {
+          "sha256": "64e4d434d9a57c1aebab331574ad5a82a2aec0e704036321336f482bc19f8da4",
+          "bytes": 18331,
+          "bound_by_inner_manifest": true
+        },
+        "run_summary.json": {
+          "sha256": "2f8da27003a8723d9b23ed0828722d9f3fe16ce0d0a7839946e6db2e23b37ef6",
+          "bytes": 3960,
+          "bound_by_inner_manifest": true
+        }
+      },
+      "history_rows": 9,
+      "progress_rows": 45,
+      "best_step": 4500,
+      "stop_reason": "budget_exhausted",
+      "equivalent_data_passes": 38.605898123324394
+    }
+  ],
+  "validation_records": 54,
+  "progress_records": 270,
+  "all_best_steps": 4500,
+  "all_recorded_validation_intervals_improve": true,
+  "relative_reduction_last500_percent_range": [
+    0.4649678404780598,
+    0.7140981639266835
+  ],
+  "relative_reduction_last1000_percent_range": [
+    1.2823652333264266,
+    1.8695728980745712
+  ],
+  "plateau_established": false,
+  "future_training_benefit_measured": false,
+  "new_training": 0,
+  "new_rollouts": 0,
+  "gpu_allocations": 0
+}
